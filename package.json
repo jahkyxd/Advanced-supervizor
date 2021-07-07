@@ -1,0 +1,18 @@
+{
+  "name": "the-jahky-register",
+  "version": "1.0.0",
+  "description": "Jahky Tarafından Hazırlanmış v12 Register Bot",
+  "main": "Jahky.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jahky",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "moment-duration": "0.0.6",
+    "moment-duration-format": "^2.3.2",
+    "quick.db": "^7.1.3"
+  }
+}

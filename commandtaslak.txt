@@ -1,0 +1,8 @@
+const Discord = require('discord.js');
+const jahky = require('../jahky.json')
+module.exports = {
+    name: 'komut ismi',
+    aliases: ['komut aliasesi'],
+    run: async(client, message, args) => {
+//komutun run kısmı
+}}
