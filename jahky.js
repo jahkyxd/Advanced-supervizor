@@ -59,11 +59,7 @@ client.on('guildMemberAdd', (member) => {
     }
 });
 
-client.login(jahky.token).catch(err => {
-    console.log.error('Bot Giriş Yapamadı')
-    console.log.error("Token Girilmemiş!")
-    console.log.error(err.message)
-    });
+client.login(jahky.token).then(x => console.log(`${client.user.username} olark giriş yapıldı`)).catch(err => console.log(`Bot giriş yaparken bir sıkıntı çıktı. sebeb: ${err}`))
 
 client.on('message', message => {
     if (message.content === 'tag') {
